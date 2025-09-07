@@ -16,9 +16,10 @@ In this task, you will learn about the R programming language and write basic R 
 Put your code inside the block below, then click the green arrow to run your code.
 
 ```{r}
-
+x <- 1
+y <- 2
+z <- 3
 ```
-
 ### 1.2: Functions
 
 A function is code that produces some result, like printing. The function for printing is `print()`, with what you want to see printed inside the parentheses, usually in quotes, unless we're printing a variable or a number. Then, no quotes.
@@ -26,15 +27,13 @@ A function is code that produces some result, like printing. The function for pr
 ## Have R print Hello World
 
 ```{r}
-
+print("Hello World")
 ```
-
 ## Have R print the number 42
 
 ```{r}
-
+print(42)
 ```
-
 ### 1.3: Computations
 
 R can do math, too, which is very necessary for statistics. Let's have it - not you - do the math.
@@ -42,7 +41,7 @@ R can do math, too, which is very necessary for statistics. Let's have it - not 
 ## Add 17 to 5
 
 ```{r}
-
+17 + 5
 ```
 
 ## Add 5 to x (remember x from above?)
